@@ -1,0 +1,159 @@
+// Сделать шапку фтксированную
+@import "null_style.scss";
+body{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+}
+.container{
+	max-width: 1110px;
+	margin: 0 auto;
+	
+}
+.container1{
+	display: flex;
+	justify-content: space-between;
+}
+header{
+	position: fixed;
+	width: 100%;
+
+	background: #007765;
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+}
+.logo {
+	margin: 0.7em 0 0.7em 1.7em;
+}
+.menu{
+	padding: 0.9em 1.8em 0.9em 0.9em;
+}
+nav li {
+	display: inline-block; 
+	text-decoration: none;
+	margin: 0 0.1em 0 0.1em;
+}
+nav li:hover {
+	font-size: 26px;
+}
+a{
+	color: #FFFFFF;
+}
+a:hover{
+	color: black;
+}
+main{
+
+}
+.block1{
+	background: url('../img/1.png') 50% 0/cover no-repeat;
+}
+.PiperNet {
+	padding: 2em 1.5em;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.block2{
+	background: #EEEEEE;
+}
+.TheProblem{
+	padding: 1.1em 1.5em 0.1em 1.5em;
+	color: #007765;
+	text-align: center;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+}
+p{
+	text-align: justify;
+	padding: 0.5em 1.5em;
+}
+p:last-child{
+	padding: 0.5em 1.5em 2em 1.5em;
+}
+p:first-child{
+	padding: 1.5em 1.5em 0.5em 1.5em;
+}
+.block3{
+	background: url('../img/2.svg') 50% 0/cover no-repeat;
+}
+.text{
+	padding: 2em 1.5em 1.7em 1.5em;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.block4{
+	background: #FFFFFF;
+}
+.Introducing{
+	padding: 1.1em 1.5em 0.1em 1.5em;
+	color: #007765;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+}
+.block4__icon{
+	float: left;
+	padding: 0.7em 0.7em 0 1.5em;
+	height: 115px;
+}
+footer{
+	background: #333333;
+}
+.footer_text{
+	margin: 0 auto;
+	max-width: 540px;
+	padding: 3em 1.5em 3.5em 1.5em;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	line-height: 21px;
+}
+.block5{
+	background: #EEEEEE;
+	
+}
+.TheTeam{
+	padding: 1.1em 1.5em 0.1em 1.5em;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+.block5__The{
+	padding: 1em 1.5em 3em 1.5em;
+	display: inline-flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+.b1, .b2, .b3, .b4, .b5, .b6{
+	flex: 0 1 33%;
+	text-align: center;
+	margin: 1em 1.5px;
+}
+.name{
+	padding: 0.5em 0 0.2em 0;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #007765;
+}
+.signature{
+	font-style: italic;
+	font-size: 18px;
+	line-height: 21px;
+}
